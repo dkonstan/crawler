@@ -35,12 +35,12 @@ util.jl: utility functions used throughout (periodic boundary conditions, etc.)
 
 this program uses atomic units everywhere!
 
-charge: elementary charges
-length: bohr radii (bohr)
-energy: Hartrees
-mass: electron masses
-time: h-bar / E_h
-angles: degrees (in topology), radians (internally)
+- charge: elementary charges
+- length: bohr radii (bohr)
+- energy: Hartrees
+- mass: electron masses
+- time: h-bar / E_h
+- angles: degrees (in topology), radians (internally)
 
 bond spring constants are in units of (Hartree / bohr^2), corresponding to N/m in SI
 angle and dihedral spring constants are in units of (Hartree / (bohr.rad))
