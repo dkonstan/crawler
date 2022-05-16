@@ -1,8 +1,7 @@
 # crawler
 a mini MD engine written in Julia for educational purposes
 
-crawler.jl is a small educational MD engine built from scratch that can energy-minimize and simulate the dynamics
-of generic polymers using periodic boundary conditions (with Ewald summation for long-range interactions). It supports bond, angle, dihedral, coulomb, and VDW (LJ) forces.
+crawler.jl is a small educational MD engine that can energy-minimize and simulate the dynamics of generic polymers using periodic boundary conditions (with Ewald summation for long-range interactions). It supports bond, angle, dihedral, coulomb, and VDW (LJ) forces.
 
 It also supports bond length constraints with the SHAKE algorithm and Langevin dynamics (beta) with or without constraints
 
