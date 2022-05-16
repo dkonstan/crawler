@@ -38,5 +38,7 @@ this program uses atomic units everywhere!
 	angle and dihedral spring constants are in units of (Hartree / (bohr.rad))
 
 The force field expression is simple and based on harmonic potentials for most terms:
+
 V(x) = bond + angle + dihedral + coulomb + lennard-jones (VDW), or
+
 V(x) = Σ(1/2)*k*x^2 + Σ(1/2)*kAngle*(θ - θ0)^2 + Σ(1/2)*kDihedral*(α-α0)^2 + ΣΣ(qi*qj)/rij + Σ4ϵ((σ / r)^12 - (σ / r)^6)
