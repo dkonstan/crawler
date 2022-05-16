@@ -9,11 +9,17 @@ The goal is to learn more about MD and learn Julia.
 
 ## source files
 structs.jl: definitions of complex datatypes such as Topology and Energies
+
 IO.jl: read/write-related stuff
+
 integrators.jl: minimization, velocity Verlet, in the future also velocity Verlet with SHAKE
+
 forces.jl: energies and gradients (forces)
+
 ewald.jl: short- and long-range Coulomb energy and forces
+
 constraints.jl: SHAKE algorithm for bond length constraints
+
 util.jl: utility functions used throughout (periodic boundary conditions, etc.)
 
 ## Sources
