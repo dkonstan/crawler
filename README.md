@@ -26,46 +26,6 @@ util.jl: utility functions used throughout (periodic boundary conditions, etc.)
 	https://grigoryanlab.org/docs/dynamics_derivatives.pdf
 	https://salilab.org/modeller/9v6/manual/node436.html
 
-Topology format (must be in this order!)
-
-<atomTypes>
-<end>
-
-<masses>
-1 atomType1
-2 ...
-<end>
-
-<masses>
-1 mass1
-2 ...
-<end>
-
-<bonds>
-atom1Idx atom2Idx length k
-<end>
-
-<angles>
-atom1 atom2 atom3 angle k
-<end>
-
-<dihedrals>
-atom1 atom2 atom3 atom4 angle k
-<end>
-
-<charges>
-1 q1
-2 ...
-<end>
-
-<vdw>
-atom1 atom2 sigma epsilon
-<end>
-
-<box>
-x y z
-<end>
-
 this program uses atomic units everywhere!
 	charge: elementary charges
 	length: bohr radii (bohr)
